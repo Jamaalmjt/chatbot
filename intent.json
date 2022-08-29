@@ -1,0 +1,30 @@
+{"intents": [
+    {"tag": "grettings",
+"patterns": ["hey", "hi", "hello", "how are you doing", "howzit", "whats up", "good day"],
+"response": ["hello", "im good thank you","hey","what can i do for you"]
+},
+{"tag": "goodbye",
+"patterns": ["cya", "cheers", "goodbye", "see yo soon", "have a good day", "im leaving now"],
+"response": ["leavinf already", "so soon", "Sad to see you go", "bye-bye"]
+},
+{"tag": "age",
+"patterns": ["how old are you", "what is your age", "how old is Jamaal"],
+"response": ["my owner jamaal is 29 ", "29 years "]
+},
+{"tag": "name",
+"patterns": ["what is your name", "what should i call you", "do you have a name", "who are you", "who am i speaking to"],
+"response": ["my name is Jamuhu", "you can call me Jamuhu", "i'm Jamuhu nice to meet you", "im Jamuhu the assistant of Jamaal"]
+},
+{"tag": "shop",
+"patterns": ["i'd like to buy something", "what are your products", "what do you recommend", "what are you selling"],
+"response": ["we have a VW up for sale", "Jammal is currently selling his Biography on A.I"]
+},
+{"tag": "hours",
+"patterns": ["when are you open","what are your working hours"],
+"response": ["24/7", "from Monday to friday"]
+},
+{"tag": "stocks",
+"patterns": ["what stocks do i have", "where are my invesment being placed in", "what companise to i own shares in"],
+"response": ["you onw 10% shares in Sasol", "we have invested in Apple , Facebook, Netfliex and Microsoft", "you have the following shares: ABBV, AAPL, of the S&P 500 index"]
+}
+]}
